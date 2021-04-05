@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-complete-guide",
+  "version": "1.0.0",
+  "description": "nodejs-complete-guide working with Rest API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bibhudattasinghgit/NodeJs.git"
+  },
+  "author": "Mr.Bibhudatta Singh",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
